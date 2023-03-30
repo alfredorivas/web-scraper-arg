@@ -36,9 +36,9 @@ location-data:
   class: 'class'
   value: 'ui-search-item__group__element ui-search-item__location shops__items-group-details'
 title-data:
-  type: 'h2'
+  type: 'a'
   class: 'class'
-  value: 'ui-search-item__title shops__item-title'
+  value: 'ui-search-item__group__element shops__items-group-details ui-search-link'
 web-data:
   type: 'a'
   class: 'class'
