@@ -47,6 +47,7 @@ class NewRegister(object):
             'price': self.price,
             'address': self.address,
             'location': self.location,
+            'title': self.title,
             'web': self.web,
             'area': self.area,
             'ambs': self.ambs,
