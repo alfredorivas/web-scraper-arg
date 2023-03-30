@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "prop scraper"
+version = "0.2.0"
+description = "Argentina properties web scraper"
+authors = ["alfredorivas.arg@gmail.com"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyYAML = "^6.0"
+bs4 = "^0.0.1"
+pandas = "^1.5.3"
+cloudscraper = "^1.2.69"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

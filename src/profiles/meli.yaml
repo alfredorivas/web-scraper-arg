@@ -1,0 +1,52 @@
+---
+#####################################################
+# these are the filters used to retrieve properties #
+#####################################################
+url-data:
+  base: 'https://inmuebles.mercadolibre.com.ar/'
+  type: 'ph/'
+  ops: 'venta/'
+  size: 'mas-de-3-ambientes/'
+  pri-loc: 'capital-federal/'
+  sec-loc: 'chacarita-o-colegiales-o-villa-ortuzar-o-villa-crespo-o-paternal/'
+  price-range: '_PriceRange_0USD-95000USD_'
+  end: 'NoIndex_True'
+
+#####################################################
+#        these are the site specific fields         #
+#####################################################
+parent-data:
+  type: 'div'
+  class: 'class'
+  value: 'ui-search-result__wrapper'
+currency-data:
+  type: 'span'
+  class: 'class'
+  value: 'price-tag-symbol'
+price-data:
+  type: 'span'
+  class: 'class'
+  value: 'price-tag-fraction'
+address-data:
+  type: 'span'
+  class: 'class'
+  value: 'ui-search-item__group__element ui-search-item__location shops__items-group-details'
+location-data:
+  type: 'span'
+  class: 'class'
+  value: 'ui-search-item__group__element ui-search-item__location shops__items-group-details'
+title-data:
+  type: 'h2'
+  class: 'class'
+  value: 'ui-search-item__title shops__item-title'
+web-data:
+  type: 'a'
+  class: 'class'
+  value: 'ui-search-link'
+  base-url: ''
+atts-data:
+  type: 'ul'
+  class: 'class'
+  value: 'ui-search-card-attributes ui-search-item__group__element shops__items-group-details'
+  string-area: ' m² cubiertos'
+  string-ambs: ' ambs.'

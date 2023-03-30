@@ -1,0 +1,52 @@
+---
+#####################################################
+# these are the filters used to retrieve properties #
+#####################################################
+url-data:
+  base: 'https://www.argenprop.com.ar/'
+  type: 'ph-'
+  ops: 'venta-'
+  size: '3-ambientes-y-4-ambientes-y-5-o-m%C3%A1s-ambientes-'
+  pri-loc: ''
+  sec-loc: 'barrio-chacarita-barrio-colegiales-barrio-villa-ortuzar-barrio-villa-crespo-barrio-paternal-'
+  price-range: 'hasta-95000-dolares'
+  end: '.html'
+
+#####################################################
+#        these are the site specific fields         #
+#####################################################
+parent-data:
+  type: 'div'
+  class: 'class'
+  value: 'listing__item'
+currency-data:
+  type: 'span'
+  class: 'class'
+  value: 'card__currency'
+price-data:
+  type: 'p'
+  class: 'class'
+  value: 'card__price'
+address-data:
+  type: 'h2'
+  class: 'class'
+  value: 'card__address'
+location-data:
+  type: 'p'
+  class: 'class'
+  value: 'card__title--primary show-mobile'
+title-data:
+  type: 'p'
+  class: 'class'
+  value: 'card__title'
+web-data:
+  type: 'a'
+  class: 'class'
+  value: 'card'
+  base-url: 'https://www.argenprop.com.ar'
+atts-data:
+  type: 'ul'
+  class: 'class'
+  value: 'card__main-features'
+  string-area: '  m² cubie.'
+  string-ambs: ' ambientes'
