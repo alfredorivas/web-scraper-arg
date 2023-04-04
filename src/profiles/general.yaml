@@ -1,0 +1,33 @@
+---
+#####################################################
+# these are the filters used to retrieve properties #
+#####################################################
+url-data-argenprop:
+  base: 'https://www.argenprop.com.ar/'
+  type: 'ph-'
+  ops: 'venta-'
+  size: '3-ambientes-y-4-ambientes-y-5-o-m%C3%A1s-ambientes-'
+  pri-loc: ''
+  sec-loc: 'barrio-chacarita-barrio-colegiales-barrio-villa-ortuzar-barrio-villa-crespo-barrio-paternal-'
+  price-range: 'hasta-95000-dolares'
+  end: '.html'
+
+url-data-meli:
+  base: 'https://inmuebles.mercadolibre.com.ar/'
+  type: 'ph/'
+  ops: 'venta/'
+  size: 'mas-de-3-ambientes/'
+  pri-loc: 'capital-federal/'
+  sec-loc: 'chacarita-o-colegiales-o-villa-ortuzar-o-villa-crespo-o-paternal/'
+  price-range: '_PriceRange_0USD-95000USD_'
+  end: 'NoIndex_True'
+
+url-data-zonaprop:
+  base: 'https://www.zonaprop.com.ar/'
+  type: 'ph-'
+  ops: 'venta-'
+  size: 'mas-de-3-ambientes-'
+  pri-loc: ''
+  sec-loc: 'chacarita-colegiales-villa-ortuzar-villa-crespo-paternal-'
+  price-range: 'menos-95000-dolar'
+  end: '.html'

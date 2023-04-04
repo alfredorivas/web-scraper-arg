@@ -1,18 +1,5 @@
 ---
 #####################################################
-# these are the filters used to retrieve properties #
-#####################################################
-url-data:
-  base: 'https://www.argenprop.com.ar/'
-  type: 'ph-'
-  ops: 'venta-'
-  size: '3-ambientes-y-4-ambientes-y-5-o-m%C3%A1s-ambientes-'
-  pri-loc: ''
-  sec-loc: 'barrio-chacarita-barrio-colegiales-barrio-villa-ortuzar-barrio-villa-crespo-barrio-paternal-'
-  price-range: 'hasta-95000-dolares'
-  end: '.html'
-
-#####################################################
 #        these are the site specific fields         #
 #####################################################
 parent-data:

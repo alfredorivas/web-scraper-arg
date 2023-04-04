@@ -1,18 +1,5 @@
 ---
 #####################################################
-# these are the filters used to retrieve properties #
-#####################################################
-url-data:
-  base: 'https://www.zonaprop.com.ar/'
-  type: 'ph-'
-  ops: 'venta-'
-  size: 'mas-de-3-ambientes-'
-  pri-loc: ''
-  sec-loc: 'chacarita-colegiales-villa-ortuzar-villa-crespo-paternal-'
-  price-range: 'menos-95000-dolar'
-  end: '.html'
-
-#####################################################
 #        these are the site specific fields         #
 #####################################################
 parent-data:

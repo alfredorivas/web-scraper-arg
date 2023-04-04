@@ -1,18 +1,5 @@
 ---
 #####################################################
-# these are the filters used to retrieve properties #
-#####################################################
-url-data:
-  base: 'https://inmuebles.mercadolibre.com.ar/'
-  type: 'ph/'
-  ops: 'venta/'
-  size: 'mas-de-3-ambientes/'
-  pri-loc: 'capital-federal/'
-  sec-loc: 'chacarita-o-colegiales-o-villa-ortuzar-o-villa-crespo-o-paternal/'
-  price-range: '_PriceRange_0USD-95000USD_'
-  end: 'NoIndex_True'
-
-#####################################################
 #        these are the site specific fields         #
 #####################################################
 parent-data:
